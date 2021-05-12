@@ -1,0 +1,41 @@
+ <div class="form-group">
+                  <center><div class="g-recaptcha" data-sitekey="6LfeWDgUAAAAAJOzpvA1JK12Zm-oqxoUZCk8Qy2x"></div></center>
+                </div> 
+
+
+
+
+SELECT * 
+FROM student131411 INNER JOIN student131412 ON 
+     student131411.auto_id=student131412.auto_id 
+     INNER JOIN student131421 ON student131411.auto_id=student131421.auto_id
+     INNER JOIN student131422 ON student131411.auto_id=student131422.auto_id
+     INNER JOIN student131431 ON student131411.auto_id=student131431.auto_id
+     INNER JOIN student131432 ON student131411.auto_id=student131432.auto_id
+     INNER JOIN student131441 ON student131411.auto_id=student131441.auto_id
+     INNER JOIN student131442 ON student131411.auto_id=student131442.auto_id
+
+
+SELECT SUM(student131411.credit+ student131412.credit+ student131421.credit+ student131422.credit+ student131431.credit+ student131432.credit+ student131441.credit+ student131442.credit)
+FROM student131411 INNER JOIN student131412 ON 
+     student131411.auto_id=student131412.auto_id 
+     INNER JOIN student131421 ON student131411.auto_id=student131421.auto_id
+     INNER JOIN student131422 ON student131411.auto_id=student131422.auto_id
+     INNER JOIN student131431 ON student131411.auto_id=student131431.auto_id
+     INNER JOIN student131432 ON student131411.auto_id=student131432.auto_id
+     INNER JOIN student131441 ON student131411.auto_id=student131441.auto_id
+     INNER JOIN student131442 ON student131411.auto_id=student131442.auto_id
+
+
+			$_SESSION['varname'] = $var_value;
+
+//On page 2
+$var_value = $_SESSION['varname'];
+
+
+
+
+$res = mysqli_query($dbh,"SELECT COUNT(DISTINCT batch) as cnt FROM user");
+             while ($result_three = mysqli_fetch_assoc($res)) 
+			 { $totalbatch= $result_three['cnt']; }
+			 $totalbatch=$totalbatch-1;
