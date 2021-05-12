@@ -1,0 +1,44 @@
+
+body{
+	background-color:#3333;
+	}
+#wrapper{width:100%}
+
+#page-wrapper{
+	padding:0 0px;
+	background-color:#9999;
+	-webkit-border-radius:0px;
+	}
+.container{position:relative;max-width:800px}.login-container{position:relative}
+.login-panel{
+	margin-top:25%;
+	margin-bottom:25%
+	}
+.photo-preview{width:150px;height:150px;border:3px solid green}.striped{background-color:#f9f9f9;border-top:1px solid #ddd;margin:0 1px}.vertical-striped{border-right:1px solid #ddd}.rightpadding{padding-right:1px}.leftpadding{padding-left:1px}.divpadding{padding:10px 0}.table th{text-align:center}.vcenter{display:inline-block;vertical-align:middle;float:none}.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{vertical-align:middle}.table>tbody>tr>td.cent-align{text-align:center}.table>tbody>tr>td.right-align{text-align:right}@media print{.page-header{text-align:center}html,body{height:auto;font-size:11px}.btn-group{display:none}#err_msg{display:none}.social{display:none}.table>tbody>tr>td,.table>tbody>tr>th,.table>tfoot>tr>td,.table>tfoot>tr>th,.table>thead>tr>td,.table>thead>tr>th{padding:5px}}
+
+#main_header2{
+	height:auto;
+	margin-top:15px;
+	background-color:#9999;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+	}
+#dev_info{
+	background:#9999;
+	padding:10px;
+	-moz-border-radius:10px;
+	height:80px;
+	margin-bottom:15px;
+	border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+	
+	}
+.footer
+{
+	color:#CCC;
+}
+#inst_info{background:#DCDCDC;padding:10px;-moz-border-radius:10px;-webkit-border-radius:10px;height:auto;margin-top:15px;margin-bottom:15px;text-align:center;font-weight:700;;color:red}#dev_info p{text-align:right;line-height:1.3;font-size:11px}#loading{display:none}#loading-error{display:none}.modal{display:none;position:fixed;z-index:1000;top:0;left:0;height:100%;width:100%;background:rgba(255,255,255,.8) url(../cdn/common/img/loading.gif) 50% 50% no-repeat}body.loading{overflow:hidden}body.loading .modal{display:block}.addr-legend{border-style:none;border-width:0;font-size:14px;line-height:20px;margin-bottom:0}.addr-fieldset{border:2px groove threedface #444;-webkit-box-shadow:0 0 0 0 #000;box-shadow:0 0 0 0 #000}@media only screen and (max-width :319px){#page-wrapper{padding:0 15px}.container{padding:0}#main_header2{margin-top:0}}@media only screen and (min-width :320px){#page-wrapper{padding:0 15px!important}#main_header2{margin-top:0!important}}@media only screen and (min-width :480px){#page-wrapper{padding:0 50px!important}#main_header2{margin-top:15px!important}}
